@@ -1,7 +1,7 @@
 # autosnap-proxmox
 Automatic snapshot hypervisor proxmox
 
-# ############ CRONTAB ###############
+############ CRONTAB ###############
 #Min#Hour#DoM#Mon#DoW#Username#Command#
 */10  *    *   *   *    root   /root/autosnap10min.sh
   6   *    *   *   *    root   /root/autosnap-hourly.sh
